@@ -1,6 +1,6 @@
 {
   "name": "Acurite to Home Assistant JAB Repository",
-  "version": "0.3.26",
+  "version": "0.3.28",
   "slug": "acurite2mqtt",
   "description": "Acurite Sensors to Home Assistant via MQTT with Autodiscovery",
   "url": "https://github.com/jbagdonas/hassio_addons",
