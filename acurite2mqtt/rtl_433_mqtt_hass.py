@@ -99,7 +99,7 @@ mappings = {
             "state_class":"measurement",
             "name": "Temperature",
             "unit_of_measurement": "°C",
-            "value_template": "{{ value|float }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
     "temperature_1_C": {
@@ -110,7 +110,7 @@ mappings = {
             "state_class":"measurement",
             "name": "Temperature 1",
             "unit_of_measurement": "°C",
-            "value_template": "{{ value|float }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
     "temperature_2_C": {
@@ -121,7 +121,7 @@ mappings = {
             "state_class":"measurement",
             "name": "Temperature 2",
             "unit_of_measurement": "°C",
-            "value_template": "{{ value|float }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
     "temperature_F": {
@@ -133,7 +133,7 @@ mappings = {
             "name": "Temperature",
             "unit_of_measurement": "°F",
             "assumed_state" : "True",
-            "value_template": "{{ value|float }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
      "temperature_1_F": {
@@ -144,7 +144,7 @@ mappings = {
             "name": "Temperature 1",
             "unit_of_measurement": "°F",
             "assumed_state" : "True",
-            "value_template": "{{ value|float }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
     "temperature_2_F": {
@@ -156,7 +156,7 @@ mappings = {
             "name": "Temperature 2",
             "unit_of_measurement": "°F",
             "assumed_state" : "True",
-            "value_template": "{{ value|float }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
 
