@@ -133,7 +133,7 @@ mappings = {
             "name": "Temperature",
             "unit_of_measurement": "°F",
             "assumed_state" : "True",
-            "value_template": "{{ 25 }}"
+            "value_template": "{{ value|float|round(1) }}"
         }
     },
      "temperature_1_F": {
