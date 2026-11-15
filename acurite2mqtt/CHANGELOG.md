@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.29]
+- Build on Home Assistant 2026.04+: default BUILD_FROM to ghcr.io/home-assistant/base:latest
+- Brightness sensors use unit "lx" (Home Assistant rejects "lux")
+- UV Index no longer tagged as irradiance (that class expects W/m²)
+- Round temperature values to 1 decimal place and point add-on at the jbagdonas/hassio_addons fork (0.3.27–0.3.28)
+
 ## [0.3.26]
 - Pulling in latest RTL_433 changes
 
