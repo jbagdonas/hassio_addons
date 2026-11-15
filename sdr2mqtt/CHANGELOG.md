@@ -3,10 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 ## [0.1.25]
 - Round temperature values to 1 decimal place
 - Point add-on at the jbagdonas/hassio_addons fork
-
 
 ## [0.1.24]
 - Pulling in latest RTL_433 changes
